@@ -221,6 +221,10 @@ nav ul li a:hover {
         height: fit-content;
         
     }
+    .deals{
+        justify-content: space-around;
+    }
+
     /* .hot-deal-container .item{
     
         /* height: ; */
@@ -229,12 +233,13 @@ nav ul li a:hover {
         /* padding: 10px;
         margin: 5px; */
     /* } */ 
-
+    
 }
 
-/* @media (max-width: 937px) {
-    .hot-deal-container{
-        flex-direction: column;
+
+@media (max-width: 411px) {
+    
+    .hot-deal-container .item{
+        min-width: 330px;
     }
-  
-} */
+}
