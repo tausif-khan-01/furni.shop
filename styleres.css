@@ -11,7 +11,10 @@
     flex-direction: column;
     overflow: hidden;
 } */
-
+:root{
+    --primary-color: rgb(71, 49, 31);
+    --secondary-color:
+}
 /* navbar */
 .navbar {
     justify-content: space-around;
@@ -169,11 +172,15 @@ nav ul li a:hover {
     width: 24%;
     padding: 10px;
     margin: 5px;
+    
 }
 .hot-deal-container .item h1{
     font-size: 3rem;
+    color: var(--primary-color);
 }
 .hot-deal-container .item h3{
+    /* color: rgb(71, 49, 31); */
+    color: var(--primary-color);
     font-size: 1.5rem;
 }
 .hot-deal-container .item p{
@@ -199,8 +206,8 @@ nav ul li a:hover {
 
     #hambuger {
         font-size: 40px;
-        color: rgb(71, 49, 31);
-
+        /* color: rgb(71, 49, 31); */
+        color: var(--primary-color);
     }
 
     .logo {
@@ -241,5 +248,6 @@ nav ul li a:hover {
     
     .hot-deal-container .item{
         min-width: 330px;
+
     }
 }
