@@ -180,6 +180,61 @@ nav ul li a:hover {
   /* justify-content: space-evenly; */
 }
 
+/* About section */
+
+.about-container-main{
+  flex-direction: column;
+  padding-right: 1%;
+  padding-left: 1%;
+  
+}
+.about-container-1{
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+}
+
+.about-container-1-txt{
+  max-width: 375px;
+  flex-direction: column;
+  
+}
+
+.about-container-1-txt-h{
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+.about-container-1-txt-p{
+  text-align: justify;
+}
+.about-container-1-btn{
+  all: unset;
+  border: 1px solid rgb(192, 109, 41);
+  height: 30px;
+  width: 100px;
+  min-width: 100px;
+
+  text-align: center;
+  padding: 2px 4px 2px 4px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.about-container-1-btn:hover{
+  background-color: var(--primary-color);
+  color: white;
+  /* transform: scale(1.18); */
+}
+.about-container-1-btn:active{
+  transform: scale(1.18);
+}
+
+
+
+
+
+
+
 @media (max-width: 640px) {
   nav {
     justify-content: space-between;
@@ -231,7 +286,6 @@ nav ul li a:hover {
         margin: 5px; */
   /* } */
 }
-
 @media (max-width: 411px) {
   .hot-deal-container .item {
     min-width: 330px;
