@@ -185,6 +185,9 @@ nav ul li a:hover {
     padding-left: 3%;
     padding-right: 5%;
   }
+  .trans-content{
+    padding: 60px 60px 60px 60px;
+  }
 
   .collapse {
     display: block;
@@ -230,6 +233,9 @@ nav ul li a:hover {
 @media (max-width: 411px) {
   .hot-deal-container .item {
     min-width: 330px;
+  }
+  .trans-content{
+    padding: 50px 30px 50px 30px;
   }
 }
 @media (min-width: 1280px) {
