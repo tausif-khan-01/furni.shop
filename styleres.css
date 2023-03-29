@@ -112,6 +112,7 @@ nav ul li a:hover {
   max-height: 400px;
   max-width: 400px;
   min-height: 300px;
+  /* text-align: center; */
 }
 .trans-content h1 {
   font-family: "Playfair Display", serif;
@@ -125,6 +126,7 @@ nav ul li a:hover {
 .trans-content p {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
+  text-align: justify;
 }
 
 .companies {
@@ -236,6 +238,10 @@ nav ul li a:hover {
   }
   .trans-content{
     padding: 50px 30px 50px 30px;
+    /* text-align: center; */
+  }
+  .trans-head{
+    font-size: 27px;
   }
 }
 @media (min-width: 1280px) {
