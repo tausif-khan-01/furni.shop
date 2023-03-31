@@ -32,6 +32,10 @@
 .flex {
   display: flex;
 }
+.grid{
+  display: grid;
+}
+
 
 nav {
   display: flex;
@@ -88,7 +92,6 @@ nav ul li a:hover {
 .hero-img {
   width: 100%;
   object-fit: cover;
-
   height: 555px;
 }
 .img-container {
@@ -158,7 +161,7 @@ nav ul li a:hover {
 .hot-deal-container .item {
   /* height: ; */
   min-width: 190px;
-  max-width: 220px;
+  max-width: 308px;
   width: 24%;
   padding: 10px;
   margin: 5px;
@@ -229,6 +232,27 @@ nav ul li a:hover {
   transform: scale(1.18);
 }
 
+.about-container-2{
+  justify-content: space-around;
+}
+.about-container-2-items{
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  max-width: 500px;
+  grid-gap: 5px;
+}
+.about-container-2-imgs{
+  grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+  grid-gap: 5px;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  
+}
+.position{
+  width: 100%;
+  object-fit: cover;
+  height: 100px;
+}
+  
 
 
 
