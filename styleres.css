@@ -142,6 +142,7 @@ nav ul li a:hover {
   align-items: center;
   color: rgb(124, 91, 65);
   background-color: antiquewhite;
+  
 }
 .h {
   margin-top: 25px;
@@ -269,6 +270,50 @@ nav ul li a:hover {
   line-height: 50px;
 }
 
+.products-section{
+  width: 100%;
+  background-color: aquamarine;
+  
+  flex-direction: column;
+
+  
+  padding-right: 10px;
+  padding-left: 10px;
+;
+    margin: auto 1%;
+
+}
+
+.products-head{
+  color: var(--primary-color);
+  font-size: 3rem;
+  padding:5rem 0rem 2.5rem 0rem;
+}
+.products-container{
+  display: grid;
+  /* justify-content: center; */
+  /* grid-template-columns: repeat(4 , 1fr); */
+  grid-template-columns: repeat(auto-fit , minmax(250px ,350px ));
+  grid-gap: 10rem 1rem;
+  justify-content: space-evenly;
+  
+}
+
+.item-container{
+  background-color: aquamarine;
+  border: 2px solid blue;
+  padding: 50px;
+  height: 300px;
+  border-radius: 30px;
+  
+}
+
+
+
+
+
+
+
 @media (max-width: 640px) {
   nav {
     justify-content: space-between;
@@ -357,6 +402,6 @@ nav ul li a:hover {
     translate: -50px 0px;
     z-index: -1;
   }
+  
 }
-
 
