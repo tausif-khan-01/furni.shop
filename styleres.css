@@ -296,19 +296,46 @@ nav ul li a:hover {
   grid-template-columns: repeat(auto-fit , minmax(250px ,350px ));
   grid-gap: 10rem 1rem;
   justify-content: space-evenly;
-  
+
 }
 
 .item-container{
-  background-color: aquamarine;
-  border: 2px solid blue;
-  padding: 50px;
+  background-color:  rgb(250, 235, 215);
+  
+  
   height: 300px;
   border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  
+
 }
 
-
+.item-container h3{
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin: 10% auto 15px auto;
+}
+.item-container strike{
+  color: var(--primary-color);
+  padding: .3rem;
+}
+.item-container div{
+  padding: .3rem;
+  color: var(--primary-color);
+}
+.item-container img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;  */
+}
 
 
 
