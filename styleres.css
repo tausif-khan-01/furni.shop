@@ -426,6 +426,8 @@ nav ul li a:hover {
         margin: 5px; */
   /* } */
 }
+
+
 @media (max-width: 411px) {
   .about-container-2 {
     flex-direction: column;
@@ -442,6 +444,16 @@ nav ul li a:hover {
   }
   .about-container-1-btn {
     display: none;
+  }
+
+  .products-container{
+    display: grid;
+    /* justify-content: center; */
+    /* grid-template-columns: repeat(4 , 1fr); */
+    grid-template-columns: repeat(auto-fit , minmax(150px ,250px ));
+    grid-gap: 10rem 1rem;
+    justify-content: space-evenly;
+  
   }
 }
 @media (min-width: 1280px) {
