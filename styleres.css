@@ -2,9 +2,20 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
 }
-
+h1,h2,h3{
+  font-family: "Playfair Display", serif;
+}
+strong{
+  font-family: 'Manrope', sans-serif;;
+}
+p,a{
+  font-family: 'Manrope', sans-serif;
+}
+.trans-intro-head{
+  font-family: "Playfair Display", serif;
+}
 /* body {
     display: flex;
     justify-content: center;
@@ -73,11 +84,17 @@ nav ul li a {
   text-decoration: none;
   text-transform: capitalize;
 }
+nav ul li a.active{
+  color: rgb(17, 8, 1);
+  text-decoration: underline;
+}
 
 nav ul li a:hover {
-  color: rgb(71, 49, 31);
+  color: rgb(17, 8, 1);
   transition: 0.4s;
 }
+
+
 
 /* hamburger/menu */
 .collapse {
@@ -272,7 +289,7 @@ nav ul li a:hover {
 
 .products-section{
   width: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   
   flex-direction: column;
 
@@ -288,6 +305,8 @@ nav ul li a:hover {
   color: var(--primary-color);
   font-size: 3rem;
   padding:5rem 0rem 2.5rem 0rem;
+  
+
 }
 .products-container{
   display: grid;
@@ -311,9 +330,14 @@ nav ul li a:hover {
   align-items: center;
 
   
+  
+  
+  transition: all .3s .1s 
+}
+.item-container:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
   
-
+  transform: scale(1.05);
 }
 
 .item-container h3{
@@ -321,6 +345,7 @@ nav ul li a:hover {
   font-size: 1.5rem;
   margin: 10% auto 15px auto;
 }
+
 .item-container strike{
   color: var(--primary-color);
   padding: .3rem;
@@ -337,6 +362,12 @@ nav ul li a:hover {
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;  */
 }
 
+
+
+.w{
+  /* background-color: rgb(255, 145, 0); */
+  height: 150px;
+}
 
 
 
