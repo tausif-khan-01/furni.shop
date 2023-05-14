@@ -61,7 +61,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 15px;
   padding-left: 8%;
   padding-right: 8%;
 }
@@ -108,7 +108,7 @@ nav ul li a:hover {
 /* hero section */
 
 .hero {
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: space-evenly;
   
   /* z-index: -1; */
@@ -279,7 +279,7 @@ nav ul li a:hover {
 }
 .position {
   width: 100%;
-  object-fit: cover;
+  
   height: 144px;
   object-fit: cover;
 }
@@ -540,7 +540,7 @@ footer .footer-head .btn-transparant:hover {
 
 .other-links {
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
 .other-links div {
   display: flex;
@@ -559,10 +559,10 @@ footer .footer-head .btn-transparant:hover {
 @media (max-width: 640px) {
   nav {
     justify-content: space-between;
-    padding-top: 25px;
-    padding-left: 3%;
-    padding-right: 5%;
-  }
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
   .about-container-2 {
     flex-direction: column;
   }
@@ -575,13 +575,13 @@ footer .footer-head .btn-transparant:hover {
   }
 
   #hambuger {
-    font-size: 40px;
+    font-size: 30px;
     /* color: rgb(71, 49, 31); */
     color: var(--primary-color);
   }
 
   .logo {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .nothing {
@@ -610,10 +610,7 @@ footer .footer-head .btn-transparant:hover {
         margin: 5px; */
   /* } */
 
-  .footer-container {
-    margin: auto;
-    /* flex-direction: column; */
-  }
+  
   footer .footer-head h2 {
     /* font-size: 34px; */
 
@@ -633,7 +630,7 @@ footer .footer-head .btn-transparant:hover {
 
   .footer-links {
     margin: auto 10px;
-    gap: 10px;
+    gap: 50px;
   }
 
   .footer-links {
@@ -715,6 +712,9 @@ footer .footer-head .btn-transparant:hover {
   .client-section-clientarea {
     /* display: flex; */
     gap: 3%;
+  }
+  .other-links{
+    gap: 40px;
   }
 
   /* .client-section img { */
