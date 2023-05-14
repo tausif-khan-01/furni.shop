@@ -267,7 +267,7 @@ nav ul li a:hover {
 .about-container-2-imgs {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 5px;
-  width: 309px;
+  max-width: 309px;
   /* justify-content: space-around; */
   /* flex-wrap: wrap; */
   flex-wrap: wrap;
@@ -430,7 +430,7 @@ nav ul li a:hover {
 /* Footer */
 
 footer {
-  height: 400px;
+  /* height: 400px; */
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -439,36 +439,32 @@ footer {
   /* align-items: center; */
   /* justify-content: center; */
 }
-.footer-container{
+.footer-container {
   margin: 50px auto;
 }
 footer .footer-head {
   display: flex;
-  gap:50px;
-  margin: 0px 10px ;
-
+  gap: 50px;
+  margin: 0px 10px;
 }
-footer .footer-head div{
+footer .footer-head div {
   display: flex;
   /* flex-direction: ; */
   flex-wrap: wrap;
   gap: 5px;
   align-items: center;
   justify-content: center;
-
 }
 
-footer .footer-head h2{
+footer .footer-head h2 {
   font-family: "Manrope", sans-serif;
   color: #ffffff;
   font-size: 34px;
   display: inline-block;
   max-width: 544px;
-
 }
 
-.hr{
-  
+.hr {
   border-bottom: 1px solid rgb(24, 23, 23);
   width: 95%;
   /* margin-; */
@@ -477,14 +473,14 @@ footer .footer-head h2{
 /* footer hr{
   color: black;
 } */
-footer .footer-head button{
+footer .footer-head button {
   all: unset;
   /* background-color: aliceblue; */
   border: 2px solid white;
   width: 120px;
   height: 35px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
@@ -493,65 +489,61 @@ footer .footer-head button{
   font-size: 17px;
   cursor: pointer;
   transition: 0.3s;
-
 }
 
-footer .footer-head .btn-get{
+footer .footer-head .btn-get {
   background-color: white;
   color: rgb(26, 25, 25);
 }
-footer .footer-head .btn-transparant{
+footer .footer-head .btn-transparant {
   /* background-color: rgb(114, 76, 61); */
   background-color: rgba(255, 255, 255, 0.178);
   color: white;
 }
-footer .footer-head .btn-get:hover,footer .footer-head .btn-transparant:hover{
+footer .footer-head .btn-get:hover,
+footer .footer-head .btn-transparant:hover {
   background-color: rgba(255, 255, 255, 0.479);
   transform: scale(1.05);
 }
 
-.link{
+.link {
   color: white;
-  text-decoration: none ;
+  text-decoration: none;
   font-weight: 300;
 }
-.footer-links{
+.footer-links {
   display: flex;
 }
-.social-links{
+.social-links {
   color: white;
   width: 250px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.social-links h3 a{
+.social-links h3 a {
   font-family: "Playfair Display", serif;
   font-size: 20px;
-
-  
 }
-.social-icons{
+.social-icons {
   display: flex;
   gap: 10px;
-  
 }
-.social-links p{
+.social-links p {
   font-style: italic;
   font-size: 14px;
   font-family: "Manrope", sans-serif;
-  
 }
 
-.other-links{
+.other-links {
   display: flex;
   gap: 25px;
 }
-.other-links div{
+.other-links div {
   display: flex;
   flex-direction: column;
 }
-.other-links h4{
+.other-links h4 {
   color: white;
   font-family: "Manrope", sans-serif;
   font-weight: 900;
@@ -560,7 +552,6 @@ footer .footer-head .btn-get:hover,footer .footer-head .btn-transparant:hover{
 .other-links div {
   font-size: 14px;
 }
-
 
 @media (max-width: 640px) {
   nav {
@@ -615,7 +606,58 @@ footer .footer-head .btn-get:hover,footer .footer-head .btn-transparant:hover{
   /* padding: 10px;
         margin: 5px; */
   /* } */
+
+ 
+
+  .footer-container {
+    margin:auto;
+    /* flex-direction: column; */
+  }
+  footer .footer-head h2 {
+    /* font-size: 34px; */
+    
+    max-width: auto;
+    font-size: 30px;
+  }
+  footer .footer-head div {
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+
+  footer .footer-head {
+    max-width: 451px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  
+  .footer-links {
+    margin: auto 10px;
+    gap: 10px;
+  }
+ 
+  
+  .footer-links {
+    flex-direction: column;
+  }
+  
 }
+
+/* styleres.css | http://127.0.0.1:5500/styleres.css */
+
+/* @media (max-width: 640px) {
+  .footer-links { */
+    /* flex: fit-content; */
+  /* }
+} */
+
+
+
+/* Inline #6 | http://127.0.0.1:5500/index.html */
+
+
+
+
 
 @media (max-width: 411px) {
   .about-container-2 {
@@ -718,6 +760,12 @@ footer .footer-head .btn-get:hover,footer .footer-head .btn-transparant:hover{
     /* color:#212529; */
     font-family: "Manrope", sans-serif;
   }
+  .other-links{
+    flex-wrap: wrap;
+  }
+  
+
+
 }
 @media (min-width: 1280px) {
   /* .trans-content{
