@@ -380,5 +380,28 @@
         </div>
       </div>
     </footer>
+<script>
+let hambuger = document.getElementById("hambuger");
+       let navbarMenu = document.getElementById("hambuger-menu");
+       let cross = document.getElementById("cross");
+
+       hambuger.addEventListener("click", () => {
+         navbarMenu.classList.add("active");
+         navbarMenu.classList.toggle("ds");
+         navbarMenu.classList.add("anim");
+         cross.classList.toggle("none");
+         hambuger.classList.toggle("none");
+       });
+
+       cross.addEventListener("click", async function () {
+         navbarMenu.classList.toggle("ds");
+         navbarMenu.classList.add("anim1");
+         await new Promise((resolve) => setTimeout(resolve, 200));
+         navbarMenu.classList.remove("active");
+         cross.classList.toggle("none");
+         hambuger.classList.toggle("none");
+         navbarMenu.classList.remove("anim1");
+       });
+<script/>
   </body>
 </html>
