@@ -8,9 +8,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-body {
+html{
   scroll-behavior: smooth;
 }
+
 h1,
 h2,
 h3 {
@@ -273,6 +274,7 @@ nav ul li a:hover {
   margin: auto 1%;
 }
 
+
 .products-head {
   color: var(--primary-color);
   font-size: 3rem;
@@ -322,7 +324,12 @@ nav ul li a:hover {
   max-height: 250px;
   padding-top: 1rem;
 }
-
+.products-section a {
+  text-decoration: none !important;
+}
+a{
+  text-decoration: none;
+}
 .w {
   height: 150px;
 }

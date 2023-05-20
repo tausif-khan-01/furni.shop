@@ -53,6 +53,11 @@ div ul li:last-child {
   nav {
     padding: 10px 10px;
   }
+  i {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(71, 49, 31);
+  }
 }
 
 @media (max-width: 475px) {
