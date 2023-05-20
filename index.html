@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styleres.css" />
+    <link rel="stylesheet" href="hamburgerstyle.css">
     <title>furni.shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,18 +38,33 @@
     <!-- NAVBAR -->
     <nav id="navbar">
       <h2 class="logo">furni.shop</h2>
-      <ul class="flex none">
-        <li><a href="#" class="active">Home</a></li>
+      <ul class="flex ds-none">
+        <li><a href="#" class="">Home</a></li>
         <li><a href="#">About </a></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-      <span class="collapse"
-        ><i class="fa-solid fa-bars" id="hambuger"></i>
+      <span class="collapse">
+        <i class="fa-solid fa-bars" id="hamburger"></i>
+        <i class="none fa-solid fa-xmark " id="cross"></i>
       </span>
       <span class="nothing"> </span>
     </nav>
+
+
+    <div class="ds " id="hamburger-menu">
+      <ul id="drop" class="">
+        <li class="li"><a href="#">Home</a></li>
+        <li class="li"><a href="#">Blog</a></li>
+        <li class="li"><a href="#">About Us</a></li>
+        <li class="li"><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
     <div  height="400px"></div>
+
+
+
+
     <!-- hero section -->
     <section class="hero flex" id="Hero">
       <div class="trans-content flex">
@@ -380,5 +396,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
