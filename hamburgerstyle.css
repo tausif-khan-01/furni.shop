@@ -1,0 +1,104 @@
+.anim {
+  animation: fallin 0.1s ease-in 1 forwards;
+}
+.anim1 {
+  animation: fallout 0.1s ease-in 1 forwards;
+}
+
+#hambuger {
+  display: none;
+}
+
+div ul li {
+  display: flex;
+  text-align: center;
+  animation: fallinin 0.1s ease-in 1 forwards;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  height: 58px;
+}
+
+div ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: calc(100% - 100px);
+  padding-top: calc((59px - 22px) / 2);
+  padding-bottom: calc((59px - 22px) / 2);
+}
+
+div ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(71, 49, 31);
+}
+div ul li:last-child {
+  border-bottom: 2px solid white;
+}
+.ds {
+  display: none;
+}
+.db {
+  display: block;
+}
+.none {
+  display: none !important;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  nav {
+    padding: 10px 10px;
+  }
+  i {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(71, 49, 31);
+  }
+}
+
+@media (max-width: 475px) {
+  #hambuger,
+  i {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(71, 49, 31);
+  }
+  .active {
+    display: flex !important;
+  }
+  .none {
+    display: none !important;
+  }
+  .db {
+    display: block;
+  }
+}
+
+@keyframes fallin {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 240px;
+  }
+}
+@keyframes fallout {
+  from {
+    height: 240px;
+  }
+  to {
+    height: 0px;
+  }
+}
+@keyframes fallinin {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 59px;
+    }
+}
