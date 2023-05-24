@@ -95,10 +95,10 @@ div ul li:last-child {
   }
 }
 @keyframes fallinin {
-    from{
-        height: 0px;
-    }
-    to{
-        height: 59px;
-    }
+  from {
+    height: 0px;
+  }
+  to {
+    height: 59px;
+  }
 }
