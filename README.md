@@ -1,6 +1,3 @@
----
-title: "Tausif Khan - Full Stack Developer Resume"
----
 
 # Tausif Khan  
 **Mob:** (+91) 8010405546 | **Email:** [tausifahmedkhan01@gmail.com](mailto:tausifahmedkhan01@gmail.com)  
